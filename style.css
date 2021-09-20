@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: maroon;
-  background-color: #ffff00;
+  background-color: #e7cbf5;
+  text-align: center;
 }
 nav{
   display: inline-block;
@@ -9,4 +9,24 @@ nav{
   border-radius: 25px;
   border: 2px solid black;
   background-color: azure;
+}
+li.navigation{
+  display: inline;
+  margin-right: 135px;
+  margin-left: 135px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+  border-radius: 25px;
+  border:2px solid black;
+  background-color:#faf0ff;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
