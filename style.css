@@ -30,3 +30,23 @@ li.navigation{
   font-size: 30px;
   text-align: center;
 }
+.Rooster {
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color:pink;
+  text-align: center;
+}
+
+.Rooster th {
+  background-color:hotpink;
+  border: 2px solid black;
+}
+
+.Rooster tr {
+  border: 2px solid black;
+}
+
+.Rooster td {
+  background-color:rgb(255, 230, 230);
+  border: 1px solid black;
+}
