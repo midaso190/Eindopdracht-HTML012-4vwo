@@ -19,7 +19,6 @@ li.navigation{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-
   padding: 10px;
 }
 .grid-item {
@@ -45,7 +44,9 @@ li.navigation{
 .Rooster tr {
   border: 2px solid black;
 }
-
+.navigation {
+  color: lightgray;
+}
 .Rooster td {
   background-color:rgb(255, 230, 230);
   border: 1px solid black;
